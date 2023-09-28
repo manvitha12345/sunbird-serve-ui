@@ -1,0 +1,227 @@
+.vCalender1 {
+  display: flex;
+  height: 890px;
+  width: 990px;
+  border: none;
+  background-color: white;
+}
+.wrapCalender1 {
+  display: flex;
+}
+
+
+.rbc-today {
+  box-sizing: border-box;
+  background-color: #E7DEFF;
+}
+
+.custom-toolbar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+
+.calendar-month-year {
+  display: inline-block;
+  font-size: 18px; /* Adjust font size */
+  font-weight: 500; /* Adjust font weight if desired */
+  margin-right: 240px;
+}
+
+
+.selected-date-cell {
+  background-color: #E9F6FF; /* Example background color for selected date */
+}
+
+.event-list {
+  border: solid 1px;
+  margin-left: 50px;
+  width: 500px;
+  border: solid 1px #EBEBEB;
+  background-color: white;
+}
+
+/* Style the background of day headers */
+.rbc-header-bg {
+  background-color: #FAFAFA; /* Example background color */
+}
+
+/* Style the text of day headers */
+.rbc-header {
+  font-weight: 500; /* Adjust font weight */
+  color: #686C73; /* Adjust text color */
+  background-color: #FAFAFA;
+}
+
+/* Style the individual day header cells */
+.rbc-header > span {
+  display: block;
+  padding: 10px; /* Add padding for spacing */
+  text-align: center;
+}
+
+
+/* Style the background of previous and next month date cells */
+.rbc-off-range-bg {
+  background-color: white; /* Example background color */
+}
+
+/* Style the text of previous and next month date cells */
+.rbc-off-range {
+  color: #999; /* Adjust text color */
+}
+
+/* Style the background of previous and next month day headers */
+.rbc-off-range-bg .rbc-day-bg {
+  background-color: #f0f0f0; /* Example background color */
+}
+.headEventList {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.statsEventList {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  padding-left: 15px ;
+  background-color: #FAFAFA;
+}
+.statsEventList span {
+  padding: 0px 50px 0px 10px;
+}
+.dayEventList {
+  list-style-type: none;
+  padding: 10px 20px;
+  border-left: solid 3px #0080BC;
+  margin-top: 3px;
+}
+.dayEventTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.nameDayEvent {
+  font-weight: 600;
+  font-size: 16px;
+  width: 300px;
+}
+
+
+
+
+.dayEventDate1 {
+  color: rgba(0, 128, 188, 1)
+}
+
+
+
+.dayEventDetails1 {
+  color:rgba(0, 111, 162, 1);
+  text-align:right;
+  cursor: pointer;
+
+}
+
+
+.noEventsOnDay {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgba(95, 99, 103, 1);
+}
+
+
+
+
+ 
+
+ 
+  
+ 
+  
+
+
+  
+  /* left */
+.leftTopBarNeedTable1 {
+  width: 35%;
+  display: flex;
+  height: 32px;
+}
+.needCount1, .volunteerCount1 {
+  color: #1C1C1C;
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+}
+.needCount1 i, .volunteerCount1 i {
+  color: #006FA2;
+  margin-right: 8px;
+}
+.needCount1 span, .volunteerCount1 span {
+  font-size: 15px;
+  margin-right: 8px;
+  font-weight: 600;
+}
+.needCount1 label, .volunteerCount1 label {
+  font-size: 15px;
+  margin-right: 5px;
+  font-weight: 400;
+  color: #686C73;
+}
+
+.options11 {
+  position: absolute;
+  top: 150%;
+  right: -30px;
+  width: 110%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey; 
+  border-top: 1px solid lightgrey;
+  z-index: 1;
+}
+
+.options11 div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.options11 div:hover {
+  background-color: #f5f5f5;
+}
+
+
+.custom-text {
+  text-align: center;
+  color:rgba(162, 165, 169, 1);
+  font-size: 16px;
+}
+
+
+.centered-text {
+   color:rgba(162, 165, 169, 1); /* Change the background color as needed */
+  padding: 5px; /* Add padding for better visibility */
+  position: absolute; /* Position the text absolutely */
+  top: 50%; /* Move the text 50% down from the top of its container */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, 0%); /* Center horizontally and move up 50% */
+}
+
+.raise-need-button {
+  margin-top: 10px; /* Add some spacing between the text and button */
+  border-radius: 4px;
+  border:none;
+  font-weight: bold;
+  background-color: rgba(0, 128, 188, 1);
+  color:  rgb(255, 255, 255);
+  padding: 4px, 8px, 4px, 8px;
+  width:130px;
+  height: 35px;
+}
